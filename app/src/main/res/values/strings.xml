@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">My Film Archive</string>
+    <string name="video_title_hint">Enter a title for the film</string>
+    <string name="video_description_hint">Enter a description for the film</string>
+    <string name="video_title_label">Title</string>
+    <string name="video_description_label">Description</string>
+    <string name="video_watched_label">Watched</string>
+    <string name="video_liked_label">Like</string>
+    <string name="video_disliked_label">Dislike</string>
+    <string name="video_added_to_list">Added to list on: </string>
+
+    <string name="date_picker_title">Year Film was Released:</string>
+
+    <string name="new_video">New Film</string>
+    <string name="show_subtitle">Show Subtitle</string>
+    <string name="hide_subtitle">Hide Subtitle</string>
+    <string name="subtitle_format">%1$d films</string>
+
+</resources>

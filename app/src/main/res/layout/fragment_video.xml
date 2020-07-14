@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/video_title_label"/>
+
+    <EditText
+        android:id="@+id/video_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/video_title_hint"/>
+
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/video_description_label"/>
+
+    <EditText
+        android:id="@+id/video_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/video_description_hint"/>
+
+    <Button
+        android:id="@+id/video_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <CheckBox
+        android:id="@+id/video_watched"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/video_watched_label"/>
+
+    <CheckBox
+        android:id="@+id/video_liked"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/video_liked_label"/>
+
+    <CheckBox
+        android:id="@+id/video_disliked"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/video_disliked_label"/>
+
+    <RatingBar
+        android:id="@+id/video_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:stepSize="1" />
+
+</LinearLayout>
